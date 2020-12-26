@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Are you official?" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="No"
+        android:textSize="15sp"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Then who are you?" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I am a software developer who wants to volunteer by curating the news coming from state bulletins and https://www.covid19india.org .The data is organised State wise and city wise."
+        android:textSize="15sp"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Why are you are putting in time and resources to do this while not gaining a single penny from it?" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Because it affects all of us. Today it's someone else who is getting infected. Tomorrow it will be us. We need to prevent the spread. We need to document the data so that people with knowledge are able to use this data to make informed decisions."
+        android:textSize="15sp"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="How is the data gathered for this project?" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I collected data from https://www.covid19india.org. Data from this website is validated by a group of volunteers and published into a Google sheet and an API, which is available for all at api.covid19india.org. I would appreciate it if you can use this data to fight the virus."
+        android:textSize="15sp"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+</LinearLayout>

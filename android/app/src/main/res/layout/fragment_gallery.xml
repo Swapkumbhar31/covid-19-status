@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="MINISTRY OF HEALTH AND FAMILY WELFARE, GOV. OF INDIA" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="HTTPS://WWW.MOHFW.GOV.IN/"
+        android:textSize="15sp"
+        android:textColor="@color/dark_blue"
+        android:onClick="openLink"
+        android:textStyle="bold"
+        android:id="@+id/linkOne"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="COVID-19 GLOBAL TRACKER" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="HTTPS://CORONAVIRUS.THEBASELAB.COM/"
+        android:textSize="15sp"
+        android:id="@+id/linkTwo"
+        android:onClick="openLink"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="WHO : COVID-19 HOME PAGE" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="HTTPS://WWW.WHO.INT/EMERGENCIES/DISEASES/NOVEL-CORONAVIRUS-2019"
+        android:textSize="15sp"
+        android:id="@+id/linkThree"
+        android:onClick="openLink"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Coronavirus Disease 2019 (COVID-19)" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="HTTPS://WWW.CDC.GOV/CORONAVIRUS/2019-NCOV/FAQ.HTML"
+        android:textSize="15sp"
+        android:id="@+id/linkFour"
+        android:onClick="openLink"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_gray"
+        android:text="Note: Click on above link for more information"/>
+</LinearLayout>

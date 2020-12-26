@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.androgeekapps.covid_19status.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_links"
+        android:name="com.androgeekapps.covid_19status.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.androgeekapps.covid_19status.ui.send.SendFragment"
+        android:label="@string/menu_faq"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.androgeekapps.covid_19status.ui.tools.ToolsFragment"
+        android:label="@string/menu_about_me"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.androgeekapps.covid_19status.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+</navigation>
